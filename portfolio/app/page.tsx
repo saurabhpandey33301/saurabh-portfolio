@@ -1,5 +1,5 @@
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+
 import { ReactLenis } from "lenis/react";
 import { Meteors } from "@/components/ui/meteors";
 import Hero from "@/components/Hero";

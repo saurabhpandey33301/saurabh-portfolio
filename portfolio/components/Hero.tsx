@@ -1,75 +1,3 @@
-// "use client";
-
-// import Connect from "../components/connect";
-// import astro from "../asset/astronaut.png";
-// import { motion } from "framer-motion";
-// import Image from "next/image";
-// import img from "../asset/star.png"
-// export default function Hero() {
-//   return (
-//     <div className="flex flex-row">
-//     <div>
-//       <div className="flex w-full h-100 m-40">
-//         {/* Astronaut Floating Animation */}
-//         <motion.div
-//           animate={{ y: [-10, 10, -10] }}
-//           transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
-//         >
-//           <Image src={astro} alt="Astronaut" className="w-[150px] h-[150px]" />
-//         </motion.div>
-
-//         {/* Text Container */}
-//         <div className="flex flex-col items-left border-0 gap-2">
-//           {/* "Hi!" Floating Independently */}
-//           <motion.div
-//             animate={{ y: [-5, 5, -5] }} // Smaller float for "Hi!"
-//             transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut", delay: 0 }}
-//             className="text-4xl font-mono"
-//           >
-//             Hi!
-//           </motion.div>
-
-//           {/* "I'm Saurabh Pandey" Floating with Different Timing */}
-//           <motion.div
-//             animate={{ y: [-10, 10, -10] }} // Medium float for name
-//             transition={{ repeat: Infinity, duration: 3, ease: "easeInOut", delay: 0.3 }}
-//             className="text-6xl font-mono"
-//           >
-//             I'm Saurabh Pandey
-//           </motion.div>
-
-//           {/* "Student at IIIT Ranchi" Floating with a Different Delay */}
-//           <motion.div
-//             animate={{ y: [-7, 7, -7] }} // Slightly different range to create smooth relative motion
-//             transition={{ repeat: Infinity, duration: 3.2, ease: "easeInOut", delay: 0.5 }}
-//             className="text-sm text-gray-400 font-mono pt-2"
-//           >
-//             Student at Indian Institute of Information Technology Ranchi
-//           </motion.div>
-//           <motion.div
-//                 animate={{ y: [-3, 3, -3] }} // Slightly different range to create smooth relative motion
-//                 transition={{ repeat: Infinity, duration: 3.2, ease: "easeInOut", delay: 0.5 }}
-//           >
-//                <Connect/>
-//           </motion.div>
-//         </div>
-
-//       </div>
-//          <motion.div className="flex justify-end w-3/4   text-[18px] text-gray-400 font-serif font-thin"
-//            animate={{ y: [-5, 5, -5] }} // Slightly different range to create smooth relative motion
-//            transition={{ repeat: Infinity, duration: 3.2, ease: "easeInOut", delay: 0.5 }}
-//          >
-//            {`< scroll down >`}
-//           </motion.div>
-//     </div>
-//     <div>
-//        <motion.img src={img.src} alt=""   className="bg-transparent w-1/2 h-1/2"  animate={{ y: [-7, 7, -7] }} // Slightly different range to create smooth relative motion
-//             transition={{ repeat: Infinity, duration: 3.2, ease: "easeInOut", delay: 0.5 }} />
-//     </div>
-
-//     </div>
-//   );
-// }
 
 
 
@@ -115,7 +43,7 @@ export default function Hero() {
             transition={{ repeat: Infinity, duration: 3, ease: "easeInOut", delay: 0.3 }}
             className="text-6xl font-mono text-white"
           >
-            I'm Saurabh 
+            {`I'm Saurabh `}
           </motion.div>
 
           {/* "Student at IIIT Ranchi" Floating with a Different Delay */}
@@ -153,12 +81,11 @@ export default function Hero() {
     </div>
     
     <motion.div
-            className="mt-4 text-[18px] text-gray-400 font-serif font-thin flex justify-center
-            "
+            className="mt-4 text-[18px] text-gray-400 font-serif font-thin flex justify-center"
             animate={{ y: [-5, 5, -5] }}
             transition={{ repeat: Infinity, duration: 3.2, ease: "easeInOut", delay: 0.5 }}
           >
-            {`< scroll down >`}
+            {`<scroll down>`}
           </motion.div>
     
      </div>

@@ -1,20 +1,10 @@
 
 import img from "../asset/blog.jpg"
 
-import { cn } from "@/lib/utils";
+
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
-import {
-  IconArrowWaveRightUp,
-  IconBoxAlignRightFilled,
-  IconBoxAlignTopLeft,
-  IconClipboardCopy,
-  IconFileBroken,
-  IconMapWest,
-  IconSignature,
-  IconTableColumn,
-  IconWebhook,
-} from "@tabler/icons-react";
+
 import Link from "next/link";
 import { Globe } from "lucide-react";
 

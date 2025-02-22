@@ -11,7 +11,7 @@ import {
   SimpleIcon,
 } from "react-icon-cloud";
 import React from "react";
-import { div } from "framer-motion/client";
+
 
 
 export const cloudProps: Omit<ICloud, "children"> = {
@@ -56,7 +56,7 @@ export const renderCustomIcon = (icon: SimpleIcon) => {
       href: undefined,
       target: undefined,
       rel: undefined,
-      onClick: (e: any) => e.preventDefault(),
+      onClick: (e: React.MouseEvent<HTMLAnchorElement>) => e.preventDefault(),
     },
   
   });

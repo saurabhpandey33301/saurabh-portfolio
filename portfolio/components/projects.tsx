@@ -1,6 +1,6 @@
 
 import { BentoGridDemo } from "./grid";
-import img from "../asset/blog.jpg";
+
 
 export default function Projects() {
   return (

@@ -1,5 +1,5 @@
 
-import sp from "../asset/sp.jpg";
+import sp from "@/asset/sp.jpg";
 import Connect from "../components/connect";
 
 export default function About() {

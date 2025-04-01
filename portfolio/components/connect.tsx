@@ -1,26 +1,3 @@
-// import Link from "next/link"
-// import git from "../asset/git2.svg"
-// import x from "../asset/icons8-x (1).svg"
-// import lnk from "../asset/icons8-linkedin.svg"
-// import leet from "../asset/l.png"
-
-// export default function Connect() {
-//     return(
-//         <>
-//            <div className="grid grid-cols-4 gap-0 ">
-//             <div className=""><Link href="https://github.com/saurabhpandey33301"><img src={git.src} alt="xyz"  className=" h-1/2"/></Link></div>
-//             <div><Link href="https://github.com/saurabhpandey33301"><img src={lnk.src} alt="xyz" className=" h-1/2"/></Link></div>
-//             <div><Link href="https://github.com/saurabhpandey33301"><img src={x.src} alt="xyz"className=" h-1/2 transform translate-y-1 " /></Link></div>
-            
-//             <div><Link href="https://github.com/saurabhpandey33301">
-//              <img src={leet.src} alt="xyz" className="transfrom translate-y-4 h-1/3" />
-//             </Link></div>
-//             </div>
-//         </>
-//     )
-// }
-
-
 
 import Link from "next/link";
 import git from "../asset/git2.svg";

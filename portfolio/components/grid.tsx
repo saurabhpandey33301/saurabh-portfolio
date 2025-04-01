@@ -7,8 +7,7 @@ import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
 
 import Link from "next/link";
 import { Globe } from "lucide-react";
-import { link } from "fs";
-import { url } from "inspector";
+
 
 export function BentoGridDemo() {
   return (

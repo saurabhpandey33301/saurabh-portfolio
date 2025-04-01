@@ -1,8 +1,3 @@
-
-
-
-
-
 "use client";
 import h from "../../asset/hut.png";
 import s from "../../asset/skl.png";
@@ -31,6 +26,7 @@ const CornerMenu = () => {
             >
               <div className="grid grid-cols-4 gap-2 h-full p-4">
                 <Link href={"#about"} className="flex items-end gap-2 text-gray-300 font-mono">
+                  
                   <img src={m.src} alt="" className="w-[55px] h-[55px]" />
                 </Link>
                 <Link href={"#skills"} className="flex items-center gap-2 text-gray-300 font-mono transform translate-y-4 -translate-x-4">

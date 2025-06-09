@@ -3,7 +3,6 @@ import imgLeet from "@/asset/leetmetric.png";
 import imgpay from "@/asset/qikpay.png";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
-import imgXyz from "@/asset/xyz.png";
 import Link from "next/link";
 import { Globe } from "lucide-react";
 
